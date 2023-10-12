@@ -14,6 +14,9 @@ Add this line to your application's Gemfile:
 gem 'faraday-oauth1'
 ```
 
+Note: There's an existing gem https://rubygems.org/gems/faraday-oauth which looks similar but, at this time, but does not have its [source](https://github.com/instructure/faraday-oauth) available and is not available for collaboration, though the gem is licensed as MIT and can be inspected.
+This library was written without reference to the faraday-oauth gem.
+
 And then execute:
 
 ```shell
