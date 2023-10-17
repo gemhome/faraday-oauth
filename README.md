@@ -1,6 +1,6 @@
 # Faraday OAuth1
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gemhome/faraday-oauth1/ci)](https://github.com/gemhome/faraday-oauth1/actions?query=branch%3Amain)
+[![CI](https://github.com/gemhome/faraday-oauth1/actions/workflows/ci.yaml/badge.svg)](https://github.com/gemhome/faraday-oauth1/actions/workflows/ci.yaml)
 [![Gem](https://img.shields.io/gem/v/faraday-oauth1.svg?style=flat-square)](https://rubygems.org/gems/faraday-oauth1)
 [![License](https://img.shields.io/github/license/gemhome/faraday-oauth1.svg?style=flat-square)](LICENSE.md)
 
