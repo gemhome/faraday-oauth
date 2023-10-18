@@ -48,8 +48,8 @@ module Faraday
         @options = options
       end
 
-      def on_request(env)
-        if sign_request?(env)
+      def on_request(env) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+        if sign_request?(env) # rubocop:disable Style/GuardClause
           header = oauth_header(env)
           auth_methods.each do |auth_method|
             case auth_method
